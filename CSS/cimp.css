@@ -10,7 +10,19 @@ body {
 
 /*Parallax Image*/
 section.Parallax {
-  background: white;
+  /* The image used */
+  background-color: white;
+  background-image: url("../Images/LOGO.png");
+
+  /* Set a specific height */
+  height: 100vh;
+  width: auto;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 img.ParallaxImage {
@@ -239,7 +251,6 @@ a.classes-link {
   justify-content: space-between;
   flex-direction: column;
   padding: 2rem;
-  height: 100%;
   color: rgb(88, 96, 105);
   background-color: rgb(255, 255, 255);
   border-radius: 0.25rem;
@@ -278,4 +289,49 @@ div.classes-top p {
   font-size: 14px;
   margin-bottom: 2rem;
   line-height: 1.5;
+}
+
+div.classes-stats {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  font-size: 13px;
+  color: rgb(106, 115, 125);
+}
+
+div.classes-stats-left {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  display: flex;
+}
+
+span.classes-stats-span {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-right: 0.75rem;
+}
+
+div.class-code {
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  margin-right: 0.25rem;
+}
+
+svg.star {
+  display: inline-block;
+  fill: currentcolor;
+  user-select: none;
+  vertical-align: text-bottom;
+  margin-right: 0.25rem;
+}
+
+svg.people {
+  display: inline-block;
+  fill: currentcolor;
+  user-select: none;
+  vertical-align: text-bottom;
+  margin-right: 0.25rem;
 }

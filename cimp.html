@@ -37,15 +37,41 @@
             <div class = "DropdownWrapper">
                 <span class = "label">by</span>
                 <div class = "Dropdown">
-                    <button class ="DropdownButton">
-                        <label>stars</label>
-                        <svg aria-hidden="true" class="octicon" height="16" role="img" viewBox="0 0 12 16" width="12" style="display: inline-block; fill: currentcolor; user-select: none; vertical-align: text-bottom;"><path fill-rule="evenodd" d="M0 5l6 6 6-6H0z"></path></svg>
+                    <button class ="DropdownButton" id = "dropdown-button-id" onclick="participantNumber()">
+                        <label id = "participant-number" >stars</label>
+                        <svg aria-hidden="true" id = "dropdown-button-svg" class="octicon" height="16" role="img" viewBox="0 0 12 16" width="12" style="display: inline-block; fill: currentcolor; user-select: none; vertical-align: text-bottom;"><path fill-rule="evenodd" d="M0 5l6 6 6-6H0z"></path></svg>
                     </button>
+                    <ul class = "dropdownList" id = "dropdown-list-id">
+                        <li class = "dropdownList-item">
+                            <button id = "btn1" onclick = "dropdownButton(this.id)">stars</button>
+                        </li>
+                        <li class = "dropdownList-item">
+                            <button id = "btn2" onclick = "dropdownButton(this.id)" >average</button>
+                        </li>
+                        <li class = "dropdownList-item">
+                            <button id = "btn3" onclick = "dropdownButton(this.id)">students</button>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </header>
-        <div class = "ClassesDiv">
+        <div class = "classes-div">
+           <ul style = "position: relative;" class = "classes-ul">
+            <li>
+                <a href = "https://college.sunway.edu.my/programmes/pre-u/cimp" target ="_blank" class = "classes-link">
+                    <div class = "classes-top">
+                        <div class ="classes-name">
+                            <svg aria-hidden="true" class="class-book" height="16" role="img" viewBox="0 0 12 16" width="12" style="display: inline-block; fill: currentcolor; user-select: none; vertical-align: text-bottom;"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+                            <h3 class = "class-label-names">Computer Science</h3>
+                        </div>
+                        <p>Fun Class!</p>
+                    </div>
+                </a>
+            </li>
+            <li>
 
+            </li>
+           </ul>
         </div>
     </section>
     <footer class = theFooter>

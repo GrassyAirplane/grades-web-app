@@ -10,15 +10,10 @@ body {
 
 /*Parallax Image*/
 section.Parallax {
-  /* The image used */
   background-color: white;
   background-image: url("../Images/LOGO.png");
-
-  /* Set a specific height */
   height: 100vh;
   width: auto;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -103,15 +98,7 @@ div.StatClass {
   text-align: center;
 }
 /*---------------------------------------------------------------------*/
-/*Footer Text*/
-footer.theFooter {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  color: rgb(106, 115, 125);
-  text-align: center;
-  font-weight: 500;
-  font-size: 14px;
-}
+
 /*Classes*/
 section.Classes {
   padding: 2rem;
@@ -240,7 +227,7 @@ a {
 }
 */
 
-ul.classes-ul {
+ul.list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
@@ -299,17 +286,17 @@ div.classes-stats {
   color: rgb(106, 115, 125);
 }
 
-div.classes-stats-left {
-  -webkit-box-flex: 1;
-  flex-grow: 1;
-  display: flex;
-}
-
-span.classes-stats-span {
+div.classes-stats span {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
   margin-right: 0.75rem;
+}
+
+div.classes-stats-left {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  display: flex;
 }
 
 div.class-code {
@@ -334,4 +321,15 @@ svg.people {
   user-select: none;
   vertical-align: text-bottom;
   margin-right: 0.25rem;
+}
+
+/*---------------------------------------------------------------------*/
+/*Footer Text*/
+footer.theFooter {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: rgb(106, 115, 125);
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
 }

@@ -1,3 +1,4 @@
+
 //main dropdownButtons ID
 const dropdownButtonID= document.getElementById('dropdown-button-id');
 
@@ -6,6 +7,13 @@ const dropdownListID = document.getElementById('dropdown-list-id');
 
 //dropdownButton SVG
 const dropdownSVG = document.getElementById('dropdown-button-svg');
+
+
+function test(){
+    const div = document.getElementById("testAccess");
+    div.innerHTML = "bob";
+    console.log(div);
+}
 
 function participantNumber(){
     //button id
@@ -41,3 +49,5 @@ function dropdownButton(clicked_id){
     svg.style.transform = "rotate(0.5turn)";
     button.style.backgroundColor = "transparent";
 }
+
+

@@ -50,4 +50,3 @@ function dropdownButton(clicked_id){
     button.style.backgroundColor = "transparent";
 }
 
-

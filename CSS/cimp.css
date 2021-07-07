@@ -211,14 +211,6 @@ ol {
   list-style: none;
 }
 
-/*Footer A Href links*/
-a {
-  text-decoration: none;
-  transition: all 0.2s ease-in-out 0s;
-  color: rgb(0, 112, 243);
-  display: inline-block;
-}
-
 /*---------------------------------------------------------------------*/
 /*,
 ::before,
@@ -229,7 +221,7 @@ a {
 
 ul.list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 1rem;
 }
 a.classes-link {
@@ -332,4 +324,12 @@ footer.theFooter {
   text-align: center;
   font-weight: 500;
   font-size: 14px;
+}
+
+/*Footer A Href links*/
+a {
+  text-decoration: none;
+  transition: all 0.2s ease-in-out 0s;
+  color: rgb(0, 112, 243);
+  display: inline-block;
 }

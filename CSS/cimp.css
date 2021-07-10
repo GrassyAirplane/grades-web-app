@@ -210,7 +210,37 @@ ol {
   margin: 0px;
   list-style: none;
 }
+div.right-side {
+  margin-left: auto;
+  margin-right: 0;
+}
+input.search {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: left;
+  color: rgb(106, 115, 125);
+  background-color: transparent;
+  border: 1px solid rgba(0, 118, 255, 0.1);
+  padding: 10px 7px;
+  border-radius: 5px;
+}
 
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(0, 112, 243);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(0, 112, 243);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(0, 112, 243);
+}
 /*---------------------------------------------------------------------*/
 /*,
 ::before,
@@ -262,6 +292,11 @@ h3.class-label-names {
   font-weight: 700;
   letter-spacing: -0.5px;
   margin: 0px;
+}
+
+/*-------*/
+div.studentclasses li {
+  max-width: 30rem;
 }
 
 div.classes-top p {
@@ -318,7 +353,7 @@ svg.people {
 /*---------------------------------------------------------------------*/
 /*Footer Text*/
 footer.theFooter {
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 2rem;
   color: rgb(106, 115, 125);
   text-align: center;

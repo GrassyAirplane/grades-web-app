@@ -296,12 +296,17 @@ h3.class-label-names {
 
 /*-------*/
 div.studentclasses li {
-  max-width: 30rem;
+  max-width: auto;
 }
-
+canvas {
+  max-width: auto;
+  max-height: auto;
+  margin-bottom: 2rem;
+}
 div.classes-top p {
   font-size: 14px;
   margin-bottom: 2rem;
+
   line-height: 1.5;
 }
 

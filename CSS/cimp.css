@@ -296,7 +296,7 @@ h3.class-label-names {
 
 /*-------*/
 div.studentclasses li {
-  max-width: auto;
+  max-width: 30rem;
 }
 canvas {
   max-width: auto;

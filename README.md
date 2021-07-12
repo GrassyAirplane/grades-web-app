@@ -6,4 +6,4 @@ The website's styling was entirely based on a design by [Brittany Chiang's](http
 
 With functionalities primarily using [Graph.js](https://www.chartjs.org/) and [List.js](https://listjs.com/) libraries. 
 
-Access website at [euanlim.tech](euanlim.tech).
+Access website at [euanlim.tech](https://euanlim.tech/).

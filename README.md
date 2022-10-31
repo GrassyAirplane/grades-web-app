@@ -6,5 +6,5 @@ The website's styling was entirely based on a design by [Brittany Chiang's](http
 
 With functionalities primarily using [Chart.js](https://www.chartjs.org/) and [List.js](https://listjs.com/) libraries. 
 
-Access website at [euanlim.tech](https://euanlim.tech/).
+Access website at [link](https://grassyairplane.github.io/grades-web-app/).
 
